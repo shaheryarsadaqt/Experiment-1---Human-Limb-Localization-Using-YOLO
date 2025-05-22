@@ -1,0 +1,4 @@
+runs/train_session_yolov8n/weights/*.pt filter=lfs diff=lfs merge=lfs -text
+runs/train_session_yolov8n/weights/best.pt filter=lfs diff=lfs merge=lfs -text
+runs/train_session_yolov8n/weights/last.pt filter=lfs diff=lfs merge=lfs -text
+runs/train_session_yolov8x/weights/*.pt filter=lfs diff=lfs merge=lfs -text
